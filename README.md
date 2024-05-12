@@ -12,10 +12,13 @@ This project tackles the task of classifying news articles into four categories:
 - Tokenize sentences into words.
 - Create a vocabulary of the most frequent words.
 - Train a Word2Vec model to learn word embeddings, capturing semantic relationships.
-## RNN Model for Classification:
+## RNN and LSTM Model for Classification:
 - Represent each sentence as a sequence of word embeddings.
 - Build an RNN model  to process the sequence and predict the category.
 - Train the RNN model on the training data.
+## Also USed Bert for Classification Task 
+- Link to Download the best_trained_model before running end to end application
+- https://www.kaggle.com/datasets/hritikjaiswal88/mode-for-newsclassification/
 ## Evaluation:
 - Use a validation set (10% of training data) to monitor model performance during training.
 - Evaluate the final model on the unseen test set using metrics like accuracy, precision, recall, and F1-score for each category.
